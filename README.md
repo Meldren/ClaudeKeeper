@@ -8,10 +8,10 @@ Single-file systemd scheduler that auto-refreshes Claude Code session windows on
 2. Edit config at the top of `claude-keeper.py`:
 
 ```python
-START_TIME = "06:00"      # First window (24h format)
-WINDOWS = 4               # Sessions count (5h apart)
-TIMEZONE = "UTC"           # Your timezone
-COMMAND = 'claude -p "hello"'
+START_TIME = "10:00"           # First window (24h format)
+WINDOWS = 4                    # Sessions count (5h apart)
+TIMEZONE = "Europe/Moscow"     # Your timezone
+COMMAND = 'claude -p "hello"'  # Command to run
 ```
 
 3. Install and forget:
